@@ -1,0 +1,23 @@
+
+/*Header styles*/
+
+.header {
+	justify-content: space-between;
+}
+
+.header_email {
+	font-size: 18px;
+	color: #fff;
+	text-decoration: none;
+}
+
+.header_button {
+	font-size: 18px;
+	color: #A9A9A9;
+	background: none;
+	box-shadow: none;
+	border: none;
+}
+
+
+
