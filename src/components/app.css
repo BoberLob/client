@@ -1,8 +1,9 @@
-/* @import url(../assets/normalize.css); */
-/* @import url(../assets/fonts.css); */
-@import url(Container/container.css);
-@import url(Header/header.css);
-/* @import url(./Logo/logo.css); */
+
+@import url(../assets/normalize.css);
+@import url(../assets/fonts.css);
+@import url(./Container/container.css);
+@import url(./Header/header.css);
+@import url(./Logo/logo.css);
 @import url(Spinner/spinner.css);
 
 /*Basis styles*/

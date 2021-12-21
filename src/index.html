@@ -11,19 +11,18 @@
   <body>
     <div class="root">
       <div class="container">
-        <!-- <div class="spinner spinner_visible"><i></i></div> -->
         <header class="header d-flex">
           <a href="#" class="header_logo">
-            <!-- <svg class="header_icon" width="16" height="12">
-              <use href="<%=require('img/logo.svg')%"></use>
-            </svg> -->
-            <img src="img/logo.png" alt="">
+            <img src="<%=require('./img/logo.svg')%>" alt="" />
           </a>
           <div class="wrap_email-button d-flex">
-            <a href="mailto:email@mail.com" class="header_email">email@mail.com</a>
+            <a href="mailto:email@mail.com" class="header_email"
+              >email@mail.com</a
+            >
             <button class="header_button">Выйти</button>
           </div>
         </header>
+        <div class="spinner spinner_visible"><i></i></div>
       </div>
     </div>
   </body>
