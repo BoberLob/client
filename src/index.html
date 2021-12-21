@@ -11,8 +11,17 @@
   <body>
     <div class="root">
       <div class="container">
-        <img src="<%=require('./img/logo.svg')%>" alt="" />
-        <p>Hello Oleg</p>
+        <header class="header d-flex">
+          <a href="#" class="header_logo">
+            <img src="<%=require('./img/logo.svg')%>" alt="" />
+          </a>
+          <div class="wrap_email-button d-flex">
+            <a href="mailto:email@mail.com" class="header_email"
+              >email@mail.com</a
+            >
+            <button class="header_button">Выйти</button>
+          </div>
+        </header>
         <div class="spinner spinner_visible"><i></i></div>
       </div>
     </div>
