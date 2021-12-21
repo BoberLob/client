@@ -3,6 +3,14 @@
 
 .header {
 	justify-content: space-between;
+	padding: 35px 0;
+	border-bottom: 1px solid #545454;
+}
+
+.wrap_email-button {
+	width: 224px;
+	justify-content: space-between;
+	align-items: center;
 }
 
 .header_email {
@@ -18,6 +26,3 @@
 	box-shadow: none;
 	border: none;
 }
-
-
-
