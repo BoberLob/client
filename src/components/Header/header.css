@@ -7,22 +7,28 @@
 	border-bottom: 1px solid #545454;
 }
 
-.wrap_email-button {
+.wrap__email-button {
 	width: 224px;
 	justify-content: space-between;
 	align-items: center;
 }
 
-.header_email {
+.header__email {
 	font-size: 18px;
 	color: #fff;
-	text-decoration: none;
+	padding-bottom: 1px;
 }
 
-.header_button {
+.header__email:hover {
+	border-bottom: 1px solid #fff;
+}
+
+.header__button {
 	font-size: 18px;
 	color: #A9A9A9;
-	background: none;
-	box-shadow: none;
-	border: none;
+	padding-bottom: 1px;
+}
+
+.header__button:hover {
+	border-bottom: 1px solid #A9A9A9;
 }

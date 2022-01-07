@@ -2,7 +2,7 @@
 @import url(../assets/fonts.css);
 @import url(./Container/container.css);
 @import url(./Header/header.css);
-@import url(./Logo/logo.css);
+@import url(./Main/main.css);
 @import url(Spinner/spinner.css);
 
 /*Basis styles*/
@@ -12,6 +12,20 @@ body {
   font-size: 18px;
   color: #fff;
   background-color: #000;
+}
+
+h1, h2, h3, p, figure, figcaption {
+  margin: 0;
+  padding: 0;
+}
+
+div, a, span {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  transition: all 0.5s ease;
 }
 
 .d-flex {
