@@ -1,0 +1,158 @@
+/*block-researchers*/
+
+.block-researchers {
+	padding: 40px 0;
+}
+
+.block-researchers,
+.researcher {
+	justify-content: space-between;
+	align-items: center;
+}
+
+.researcher {
+	width: 480px;
+}
+
+.researcher__box {
+	width: 332px;
+	justify-content: space-between;
+	align-items: baseline;
+}
+
+.researcher__box_title {
+	font-size: 42px;
+	font-weight: 500;
+	margin-bottom: 10px;
+}
+
+.researcher__img {
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+}
+
+.researcher__box_icon {
+	display: block;
+	width: 24px;
+	height: 24px;
+	border: 1px solid #fff;
+}
+
+.researcher__box_img {
+	display: block;
+	width: 24px;
+	height: 24px;
+	background: url('../../img/pencil.svg') no-repeat;
+	background-position: 6px 6px;
+}
+
+.researcher__box_icon:hover {
+	background: #fff;
+}
+
+.researcher__box_icon:hover .researcher__box_image {
+	background: url('../../img/pencil-black.svg') no-repeat;
+	background-position: 6px 6px;
+}
+
+.button-add {
+	display: block;
+	width: 150px;
+	height: 50px;
+	border: 2px solid #fff;
+}
+
+.button-add__image {
+	display: block;
+	width: 150px;
+	height: 50px;
+	background: url('../../img/plus.svg') no-repeat;
+	background-position: center;
+}
+
+.button-add:hover {
+	background: #fff;
+}
+
+.button-add:hover .button-add__image {
+	background: url('../../img/plus-black.svg') no-repeat;
+	background-position: center;
+}
+
+/*block-cards*/
+
+.block-cards {
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.card {
+	width: 282px;
+	color: #000;
+	position: relative;
+	margin-bottom: 18px;
+}
+
+.card__icon {
+	display: block;
+	width: 18px;
+	height: 19px;
+	position: absolute;
+	top: 18px;
+	right: 17px;
+	background: url('../../img/trash-icon.svg') no-repeat;
+}
+
+.card__icon:hover {
+	background: url('../../img/trash-icon-hover.svg') no-repeat;
+}
+
+.card__img {
+	display: block;
+	width: 100%;
+	border-radius: 10px 10px 0 0;
+}
+
+.card__caption {
+	justify-content: space-between;
+	padding: 25px 21px 16px 20px;
+	background: #fff;
+	border-radius: 0 0 10px 10px;
+}
+
+.card__title {
+    font-family: "Inter-Black", sans-serif;
+	font-size: 24px;
+	width: 190px;
+	overflow:hidden;
+	text-overflow: ellipsis;
+	white-space: pre;
+}
+
+.card__counter-likes {
+	flex-direction: column;
+	align-items: center;
+}
+
+.card__counter-likes_like {
+	display: block;
+	width: 22px;
+	height: 19px;
+	margin-bottom: 5px;
+	background: url('../../img/like-inactive.svg') no-repeat;
+}
+
+.card__counter-likes_number {
+	font-size: 13px;
+}
+
+/*footer*/
+
+.footer {
+	padding: 50px 0 100px;
+}
+
+.copy {
+	color: #545454;
+}

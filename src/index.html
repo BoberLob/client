@@ -12,17 +12,109 @@
     <div class="root">
       <div class="container">
         <header class="header d-flex">
-          <a href="#" class="header_logo">
-            <img src="<%=require('./img/logo.svg')%>" alt="" />
+          <a href="#" class="header__logo">
+            <img src="<%=require('./img/logo.svg')%>" alt="Mesto Russia" />
           </a>
-          <div class="wrap_email-button d-flex">
-            <a href="mailto:email@mail.com" class="header_email"
+          <div class="wrap__email-button d-flex">
+            <a href="mailto:email@mail.com" class="header__email"
               >email@mail.com</a
             >
-            <button class="header_button">Выйти</button>
+            <a href="#" class="header__button">Выйти</a>
           </div>
         </header>
         <!-- <div class="spinner spinner_visible"><i></i></div> -->
+        <main class="main">
+          <div class="block-researchers d-flex">
+            <div class="researcher d-flex">
+              <img src="<%=require('./img/avatar.jpg')%>" alt="Улыбающийся Жак-Ив Кусто" class="researcher__img">
+              <div class="researcher__box d-flex">
+                <div class="researcher__box_text">
+                  <h1 class="researcher__box_title">Жак-Ив Кусто</h1>
+                  <p class="researcher__box_who">Исследователь океана</p>
+                </div>
+                <a href="#" class="researcher__box_icon">
+                  <span class="researcher__box_img"></span>
+                </a>
+              </div>
+            </div>
+            <a href="#" class="button-add">
+              <span class="button-add__image"></span>
+            </a>
+          </div>
+          <div class="block-cards d-flex">
+            <figure class="card">
+              <a href="#" class="card__icon"></a>
+              <img src="<%=require('./img/old-house.jpg')%>" alt="Древнее здание в горах" class="card__img">
+              <figcaption class="card__caption d-flex">
+                <h2 class="card__title">Карачаевск</h2>
+                <div class="card__counter-likes d-flex">
+                  <a href="#" class="card__counter-likes_like"></a>
+                  <p class="card__counter-likes_number">0</p>
+                </div>
+              </figcaption>
+            </figure>
+            <figure class="card">
+              <a href="#" class="card__icon"></a>
+              <img src="<%=require('./img/hills.jpg')%>" alt="Древнее здание в горах" class="card__img">
+              <figcaption class="card__caption d-flex">
+                <h2 class="card__title">Гора Эльбрус</h2>
+                <div class="card__counter-likes d-flex">
+                  <a href="#" class="card__counter-likes_like"></a>
+                  <p class="card__counter-likes_number">0</p>
+                </div>
+              </figcaption>
+            </figure>
+            <figure class="card">
+              <a href="#" class="card__icon"></a>
+              <img src="<%=require('./img/mountains.jpg')%>" alt="Древнее здание в горах" class="card__img">
+              <figcaption class="card__caption d-flex">
+                <h2 class="card__title">Домбай</h2>
+                <div class="card__counter-likes d-flex">
+                  <a href="#" class="card__counter-likes_like"></a>
+                  <p class="card__counter-likes_number">0</p>
+                </div>
+              </figcaption>
+            </figure>
+            <figure class="card">
+              <a href="#" class="card__icon"></a>
+              <img src="<%=require('./img/hills.jpg')%>" alt="Древнее здание в горах" class="card__img">
+              <figcaption class="card__caption d-flex">
+                <h2 class="card__title">Гора Эльбрус</h2>
+                <div class="card__counter-likes d-flex">
+                  <a href="#" class="card__counter-likes_like"></a>
+                  <p class="card__counter-likes_number">0</p>
+                </div>
+              </figcaption>
+            </figure>
+            <figure class="card">
+              <a href="#" class="card__icon"></a>
+              <img src="<%=require('./img/mountains.jpg')%>" alt="Древнее здание в горах" class="card__img">
+              <figcaption class="card__caption d-flex">
+                <h2 class="card__title">Домбай</h2>
+                <div class="card__counter-likes d-flex">
+                  <a href="#" class="card__counter-likes_like"></a>
+                  <p class="card__counter-likes_number">0</p>
+                </div>
+              </figcaption>
+            </figure>
+            <figure class="card">
+              <a href="#" class="card__icon"></a>
+              <img src="<%=require('./img/old-house.jpg')%>" alt="Древнее здание в горах" class="card__img">
+              <figcaption class="card__caption d-flex">
+                <h2 class="card__title">Карачаево-Черкессия</h2>
+                <div class="card__counter-likes d-flex">
+                  <a href="#" class="card__counter-likes_like"></a>
+                  <p class="card__counter-likes_number">0</p>
+                </div>
+              </figcaption>
+            </figure>
+          </div>
+        </main>
+        <footer class="footer">
+          <div class="copy">
+            &copy; 2020 Mesto Russia
+          </div>
+        </footer>
       </div>
     </div>
   </body>
